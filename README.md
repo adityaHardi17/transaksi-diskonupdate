@@ -6,7 +6,7 @@
 php artisan make:migration add_diskon_and_harga_akhir_to_paket --table=pakets
 ```
 
-### edit pada bagian function up
+### buka file migration baru yang add_diskon_and_harga_akhir_to_paket, edit pada bagian function up
 ```php
 public function up()
     {
